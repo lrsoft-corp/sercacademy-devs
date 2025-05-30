@@ -2,7 +2,7 @@
 layout: post
 title:  "Find Student in Group"
 date:   2025-05-29 16:15:00 +0800
-categories: General
+categories: Feature
 author: Zaf
 author_url: https://github.com/23Pstars
 ---
