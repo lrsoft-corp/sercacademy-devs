@@ -1,0 +1,47 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title_footer | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+
+      <div class="footer-col footer-col-4">
+        <p>{{ site.description | markdownify }}</p>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <h3>Categories</h3>
+        <ul>
+          {% for category in site.categories %}
+            <li>
+              <a href="/category#{{ category | first }}">
+                {{ category | first }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <ul class="contact-list">
+          <li>{{ site.author | escape }}</li>
+          {% if site.email %}
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% endif %}
+        </ul>
+        <ul class="social-media-list">
+          <li>
+            <span class="icon icon--github">{% include icon-github.svg %}</span>
+            <a href="https://github.com/lrsoft-corp/sercacademy-devs">
+              <span class="username">sercacademy-devs</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>

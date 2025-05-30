@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="category">
+
+  <header class="category-header">
+    <h1 class="category-title">{{ page.title | escape }}</h1>
+  </header>
+
+  {% for category in site.categories %}
+    <h3 id="{{ category | first }}">{{ category | first }}</h3>
+    <ul class="post-list">
+      {% for post in category[1] %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+
+</div>

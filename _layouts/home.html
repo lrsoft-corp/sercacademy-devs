@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Recent Activities</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts limit:5 %}
+      <li>
+        <span class="post-meta">
+          {{ post.date | date: "%b %-d, %Y" }}
+          &mdash;
+          <a href="{{ post.author_url }}" target="_blank">
+            {{ post.author }}
+          </a>
+        </span>
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+        <div class="post-content">
+          {{ post.content | strip_html | slice: 0, 125 }}...
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
