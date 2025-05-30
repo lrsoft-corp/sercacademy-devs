@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Find Student in Group"
+title:  "Bug Fixed: Student Stuck in the Loop"
 date:   2025-05-29 16:15:00 +0800
 categories: Bug Fixes
 author: Zaf
