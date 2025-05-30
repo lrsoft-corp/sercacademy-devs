@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bug Fixed: Student Stuck in the Loop"
-date:   2025-05-29 16:15:00 +0800
+date:   2025-05-28 16:15:00 +0800
 categories: Bug Fixes
 author: Zaf
 author_url: https://github.com/23Pstars
