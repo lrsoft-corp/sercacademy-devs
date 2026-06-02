@@ -2,7 +2,7 @@
 layout: post
 title:  "Query Optimization"
 date:   2025-05-21 13:47:00 +0800
-categories: Feature
+categories: Performance
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Score Filter"
 date:   2025-05-22 19:08:00 +0800
-categories: Feature
+categories: Reporting
 author: Zaf
 author_url: https://github.com/23Pstars
 ---
