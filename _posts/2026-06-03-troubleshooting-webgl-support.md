@@ -26,6 +26,8 @@ If the page does not show the WebGL animation or displays an error message, cont
 5. Open [get.webgl.org](https://get.webgl.org/) again to test WebGL.
 6. If WebGL is working, open the SERC Academy activity page again.
 
+[![Chrome system settings showing graphics acceleration](/assets/images/posts/2026/06/webgl-troubleshooting/chrome-settings-system.png)](/assets/images/posts/2026/06/webgl-troubleshooting/chrome-settings-system.png)
+
 ## Microsoft Edge
 
 1. Open Microsoft Edge.
@@ -35,6 +37,8 @@ If the page does not show the WebGL animation or displays an error message, cont
 5. Restart Edge if prompted.
 6. Open [get.webgl.org](https://get.webgl.org/) again to test WebGL.
 7. If WebGL is working, open the SERC Academy activity page again.
+
+[![Microsoft Edge system settings showing graphics acceleration](/assets/images/posts/2026/06/webgl-troubleshooting/edge-settings-system.jpg)](/assets/images/posts/2026/06/webgl-troubleshooting/edge-settings-system.jpg)
 
 ## Chromebook
 
@@ -51,7 +55,11 @@ If WebGL is not working on a Chromebook:
 7. Restart the Chromebook after the update is installed.
 8. Test again at [get.webgl.org](https://get.webgl.org/), then reopen the SERC Academy activity page.
 
+[![chrome://gpu graphics feature status showing WebGL hardware accelerated](/assets/images/posts/2026/06/webgl-troubleshooting/chrome-gpu-webgl-status.png)](/assets/images/posts/2026/06/webgl-troubleshooting/chrome-gpu-webgl-status.png)
+
 If the Chromebook is managed by a school or organisation, some graphics settings may be controlled by device policy and may not be visible to the student. In that case, contact the school IT administrator or the SERC Academy team.
+
+[![Chrome menu showing Managed by your organization](/assets/images/posts/2026/06/webgl-troubleshooting/chrome-managed-by-organization.png)](/assets/images/posts/2026/06/webgl-troubleshooting/chrome-managed-by-organization.png)
 
 Very old Chromebooks that have reached their final ChromeOS software update may not reliably support all current browser features. Check **Settings** > **About ChromeOS** > **Additional details** > **Update schedule** to confirm whether the Chromebook is still receiving updates.
 
