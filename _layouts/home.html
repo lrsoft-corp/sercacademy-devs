@@ -19,7 +19,7 @@ layout: default
             &mdash;
             {% for category in post.categories %}
               {% assign category_slug = category | slugify %}
-              <a href="{{ '/category/' | relative_url | append: category_slug | append: '/' }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+              <a href="{{ '/category/' | relative_url | append: '?c=' | append: category_slug }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
             {% endfor %}
           {% endif %}
         </span>

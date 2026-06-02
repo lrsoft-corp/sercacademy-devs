@@ -4,12 +4,13 @@ layout: default
 <div class="category">
 
   <header class="page-header">
-    <h1 class="page-title">{{ page.title | escape }}</h1>
+    <h1 id="category-title" class="page-title">{{ page.title | escape }}</h1>
   </header>
 
-  <ul class="post-list">
+  <ul class="post-list" id="post-list">
     {% for post in site.posts %}
-      <li>
+      {% capture post_categories %}{% for cat in post.categories %}{{ cat | slugify }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+      <li class="post-item" data-categories="{{ post_categories }}">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         <span class="post-meta">
@@ -22,7 +23,7 @@ layout: default
             in
             {% for category in post.categories %}
               {% assign category_slug = category | slugify %}
-              <a href="{{ '/category/' | relative_url | append: category_slug | append: '/' }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+              <a href="{{ '/category/' | relative_url | append: '?c=' | append: category_slug }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
             {% endfor %}
           {% endif %}
         </span>
@@ -31,3 +32,42 @@ layout: default
   </ul>
 
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const categoryQuery = urlParams.get('c');
+    
+    if (categoryQuery) {
+      const normalizedQuery = categoryQuery.toLowerCase().trim();
+      const posts = document.querySelectorAll('.post-item');
+      let foundPosts = 0;
+      
+      posts.forEach(function(post) {
+        const categories = post.getAttribute('data-categories').split(',');
+        if (categories.includes(normalizedQuery)) {
+          post.style.display = '';
+          foundPosts++;
+        } else {
+          post.style.display = 'none';
+        }
+      });
+      
+      // Try to find the clean/original category name from the page links
+      let categoryName = categoryQuery;
+      const categoryLink = document.querySelector(`.post-item a[href*="?c=${categoryQuery}"]`);
+      if (categoryLink) {
+        categoryName = categoryLink.textContent;
+      } else {
+        // Fallback capitalization
+        categoryName = categoryQuery.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+      }
+      
+      document.title = "Category: " + categoryName + " | " + "{{ site.title | escape }}";
+      const titleEl = document.getElementById('category-title');
+      if (titleEl) {
+        titleEl.textContent = "Category: " + categoryName;
+      }
+    }
+  });
+</script>

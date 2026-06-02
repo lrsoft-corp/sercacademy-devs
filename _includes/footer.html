@@ -17,7 +17,7 @@
             {% assign cat_name = category | first %}
             {% assign cat_slug = cat_name | slugify %}
             <li>
-              <a href="{{ '/category/' | relative_url | append: cat_slug | append: '/' }}">
+              <a href="{{ '/category/' | relative_url | append: '?c=' | append: cat_slug }}">
                 {{ cat_name }}
               </a>
             </li>
