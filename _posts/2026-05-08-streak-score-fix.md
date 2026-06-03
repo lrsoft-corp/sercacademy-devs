@@ -2,7 +2,7 @@
 layout: post
 title:  "Streak Score Fix"
 date:   2026-05-08 06:33:20 +0800
-categories: Streaks
+categories: Gameplay
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

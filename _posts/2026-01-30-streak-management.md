@@ -2,7 +2,7 @@
 layout: post
 title:  "Streak Management"
 date:   2026-01-30 01:22:28 +0800
-categories: Streaks
+categories: Gameplay
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

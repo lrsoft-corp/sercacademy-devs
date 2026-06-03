@@ -2,7 +2,7 @@
 layout: post
 title:  "Activity Download Option"
 date:   2025-07-01 12:59:35 +0800
-categories: Exports
+categories: Reporting
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

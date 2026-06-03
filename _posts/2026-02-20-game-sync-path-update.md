@@ -2,7 +2,7 @@
 layout: post
 title:  "Game Sync Path Update"
 date:   2026-02-20 02:11:32 +0800
-categories: Maintenance
+categories: Support
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Multiple Streaks per Level"
 date:   2026-03-25 20:00:36 +0800
-categories: Streaks
+categories: Gameplay
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

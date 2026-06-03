@@ -2,7 +2,7 @@
 layout: post
 title:  "User Management Text Update"
 date:   2026-03-17 14:31:26 +0800
-categories: UI-Content
+categories: Support
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

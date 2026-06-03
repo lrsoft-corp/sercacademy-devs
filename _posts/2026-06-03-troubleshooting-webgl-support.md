@@ -2,7 +2,7 @@
 layout: post
 title:  "Troubleshooting WebGL Support"
 date:   2026-06-03 00:00:00 +0800
-categories: Troubleshooting
+categories: Support
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

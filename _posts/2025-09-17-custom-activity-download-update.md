@@ -2,7 +2,7 @@
 layout: post
 title:  "Custom Activity Download Update"
 date:   2025-09-17 11:51:18 +0800
-categories: Exports
+categories: Reporting
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

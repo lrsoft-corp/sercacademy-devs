@@ -2,7 +2,7 @@
 layout: post
 title:  "Group Upload and School Import Fix"
 date:   2026-03-24 14:31:19 +0800
-categories: Groups
+categories: Administration
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

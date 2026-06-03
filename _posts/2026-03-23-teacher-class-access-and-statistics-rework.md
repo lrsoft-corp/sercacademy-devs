@@ -2,7 +2,7 @@
 layout: post
 title:  "Teacher Class Access and Statistics Rework"
 date:   2026-03-23 16:41:42 +0800
-categories: Access-Control
+categories: Administration
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

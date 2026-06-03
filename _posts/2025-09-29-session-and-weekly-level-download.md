@@ -2,7 +2,7 @@
 layout: post
 title:  "Session and Weekly Level Download"
 date:   2025-09-29 19:42:50 +0800
-categories: Exports
+categories: Reporting
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

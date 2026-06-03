@@ -2,7 +2,7 @@
 layout: post
 title:  "Teacher Dashboard Student Filter"
 date:   2026-04-25 11:21:28 +0800
-categories: Access-Control
+categories: Administration
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

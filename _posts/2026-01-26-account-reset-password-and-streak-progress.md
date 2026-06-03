@@ -2,7 +2,7 @@
 layout: post
 title:  "Account Reset Password and Streak Progress"
 date:   2026-01-26 09:30:01 +0800
-categories: Accounts
+categories: Administration
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Consent and Database Structure Update"
 date:   2025-09-26 13:22:14 +0800
-categories: Students
+categories: Administration
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

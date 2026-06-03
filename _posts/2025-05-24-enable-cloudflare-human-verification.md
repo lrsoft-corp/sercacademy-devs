@@ -2,7 +2,7 @@
 layout: post
 title:  "Enable Cloudflare Human Verification"
 date:   2025-05-24 01:44:00 +0800
-categories: Security
+categories: Support
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

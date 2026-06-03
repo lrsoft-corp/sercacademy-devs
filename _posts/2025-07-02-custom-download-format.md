@@ -2,7 +2,7 @@
 layout: post
 title:  "Custom Download Format"
 date:   2025-07-02 10:21:19 +0800
-categories: Exports
+categories: Reporting
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Streak Level Import Export Fix"
 date:   2026-02-27 14:51:20 +0800
-categories: Streaks
+categories: Gameplay
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Teacher Handbook and Environment Label Fixes"
 date:   2026-04-06 08:50:22 +0800
-categories: UI-Content
+categories: Support
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

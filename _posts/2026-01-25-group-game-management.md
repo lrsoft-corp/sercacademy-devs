@@ -2,7 +2,7 @@
 layout: post
 title:  "Group Game Management"
 date:   2026-01-25 04:50:29 +0800
-categories: Groups
+categories: Administration
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

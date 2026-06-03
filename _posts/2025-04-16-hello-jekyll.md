@@ -2,7 +2,7 @@
 layout: post
 title:  "Halo, Jekyll!"
 date:   2025-04-16 15:06:00 +0800
-categories: General
+categories: Support
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

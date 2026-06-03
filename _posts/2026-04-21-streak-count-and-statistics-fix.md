@@ -2,7 +2,7 @@
 layout: post
 title:  "Streak Count and Statistics Fix"
 date:   2026-04-21 16:27:12 +0800
-categories: Streaks
+categories: Gameplay
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Group Game Level Order and Streak Models"
 date:   2026-02-23 14:06:43 +0800
-categories: Groups
+categories: Administration
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

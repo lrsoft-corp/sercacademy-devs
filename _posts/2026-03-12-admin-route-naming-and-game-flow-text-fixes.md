@@ -2,7 +2,7 @@
 layout: post
 title:  "Admin Route Naming and Game Flow Text Fixes"
 date:   2026-03-12 12:59:10 +0800
-categories: UI-Content
+categories: Support
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

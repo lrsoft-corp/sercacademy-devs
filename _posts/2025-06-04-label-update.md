@@ -2,7 +2,7 @@
 layout: post
 title:  "Label Update"
 date:   2025-06-04 06:50:00 +0800
-categories: UI-Content
+categories: Support
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

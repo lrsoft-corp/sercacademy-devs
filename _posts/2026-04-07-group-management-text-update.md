@@ -2,7 +2,7 @@
 layout: post
 title:  "Group Management Text Update"
 date:   2026-04-07 14:19:27 +0800
-categories: UI-Content
+categories: Support
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

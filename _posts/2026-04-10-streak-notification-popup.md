@@ -2,7 +2,7 @@
 layout: post
 title:  "Streak Notification Popup"
 date:   2026-04-10 17:05:47 +0800
-categories: Streaks
+categories: Gameplay
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

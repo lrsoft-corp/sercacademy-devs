@@ -2,7 +2,7 @@
 layout: post
 title:  "Profile Password and Log Path Fixes"
 date:   2026-02-22 19:53:36 +0800
-categories: Accounts
+categories: Administration
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Repeatable Level Streaks"
 date:   2026-03-26 19:57:15 +0800
-categories: Streaks
+categories: Gameplay
 author: Zaf
 author_url: https://github.com/23Pstars
 ---

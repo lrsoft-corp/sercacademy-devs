@@ -2,7 +2,7 @@
 layout: post
 title:  "Group Game Upload and Management Update"
 date:   2026-02-28 14:49:57 +0800
-categories: Groups
+categories: Administration
 author: Zaf
 author_url: https://github.com/23Pstars
 ---
